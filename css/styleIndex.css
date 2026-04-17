@@ -7,6 +7,10 @@ body {
   max-width: 100%;
 }
 
+.dropdown-menu{
+  width: 200%;
+}
+
 .logo {
   width: 50px;
   height: 50px;
