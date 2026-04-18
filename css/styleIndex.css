@@ -62,35 +62,34 @@ body {
   color: white;
 }
 
- .links_navdown {
-    font-size: 25px;
-  }
-  .colum {
-    text-align: center;
-    margin-top: -2px;
-  }
-  .navbar-final {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    height: 70px;
-    background-color: white;
-    /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: "Tangerine", serif;
-    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
-  }
+.links_navdown {
+  font-size: 25px;
+}
+.colum {
+  text-align: center;
+  margin-top: -2px;
+}
+.navbar-final {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+  background-color: white;
+  /* border: 1px solid #000; Espessura, estilo (solid) e cor  */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Tangerine", serif;
+  box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.2);
+}
 
-  .navbar-final a {
-    color: black;
-    padding: 0 20px;
-    text-decoration: none;
-    font-family: Arial, sans-serif;
-  }
-
+.navbar-final a {
+  color: black;
+  padding: 0 20px;
+  text-decoration: none;
+  font-family: Arial, sans-serif;
+}
 
 #about {
   background-color: rgb(24, 20, 20);
@@ -244,6 +243,11 @@ body {
   .jd {
     color: rgb(243, 105, 55);
     font-size: 30px;
+  }
+
+  .navbar-brand .jdcell {
+    color: black;
+    font-size: 20px;
   }
 
   .logo {
@@ -473,6 +477,7 @@ body {
     color: rgb(243, 105, 55);
     font-size: 30px;
   }
+
   .slider {
     display: none;
   }
