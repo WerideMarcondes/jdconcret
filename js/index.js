@@ -30,7 +30,8 @@ function logo() {
   imageHeight: 200,
   color: 'black',
   confirmButtonColor: 'rgb(243, 105, 55)',
-  confirmButtonColor: 'black'
+  confirmButtonColor: 'black',
+  heightAuto: false // Adicione esta linha
 });
 
 }
